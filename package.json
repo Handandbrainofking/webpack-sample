@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack --progress --config build/webpack.base.config.js"
+    "start": "npm run dev",
+    "dev": "webpack --progress --config build/webpack.base.config.js"
   },
   "author": "",
   "license": "ISC",
